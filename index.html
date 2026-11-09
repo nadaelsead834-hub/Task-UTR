@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mobile Store</h1>
+
+        <div class="form">
+            <input type="text" id="mobileName" placeholder="Name">
+            <input type="number" id="mobilePrice" placeholder="Price">
+            <button id="createBtn" onclick="createMobile()">Create</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
